@@ -1,0 +1,61 @@
+<!-- Go to cmd and write  'ng new topic name'
+
+==>Then it will ask you Dou you want router or not??
+=>then say yes
+And, From Css
+Now it will setup all packages,files,folders
+
+==>Then cd topic name
+
+==>Now Oper Terminal and right click on crash-course(topic name) click on "open in integreted Terminal"
+and now write in terminal 'ng serve' for ren the program
+
+==>Angular localhost port number is 4200
+==>In Angular there are Some Components,files,folders   
+==> In 'package.json we can see all dependencies -> rxjs which is library etc'
+
+==> angular.json is for cinfig files All the config files are avalible in angular.json
+=>index.html itis a single page which load bcoz every this is load in <app-root></app-root>
+==> main.ts it is ts extension , it is like entry point to angular 
+
+==>src/app is a main application 
+==> in app.modules.ts basically we make a component which will declare in it
+==> app.components.html which is for design
+==> app.component.spec.ts is for testing
+
+//////////////////////////////////////////////////////////////////////////////////////////
+==> So now lets design ,For design we have to goo app.html and remove every thing
+==>Now <h1>{{title }}</h1> is whatever the title of project we can see in output
+which we can also see in app.component.ts title,is we change there title name then our output will also change
+==>in HTML i will add .toUppercase then whole text will in uppercase and also we can sum there
+
+==>we also have style.css which is for styling whole application
+
+==>now if we want to make new component then write in terminal that 'ng g c component name'
+                                            if we want component in components folder then 'ng g c components/name'
+==> we have to implements oninit 
+                add constructor(){}
+                and ng OnInit(): void {}---it is a life cycle method, it is used most to inilize the code
+==> we make header OKAY so in app.component.html we will write <app-header></app-header>
+===>if we usediv class container in app.component.html then all in container
+==> if we cut title from app.component.ts and paste in header.component.ts upper in constructor 
+and lets design in header.html inside the header tag <header></header> 
+and now in header.css we write how we want 
+==> now we add button in terminal ng g c components/button
+
+==> In button.html we add<app-button></app-button>
+                                And in button.html we design
+                                if we want to colour the button then header.html make class name color
+        ==> if we style then in button.html we can
+
+        Same all in every components
+
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+        npm means Node package Manager :-- it is one type of package 
+                                            it is use to install library,package,bootstrap
+                                        --npm install angular-datatables is to install datatable
+                                        --npm install @ng-bootstrap/ng-bootstrap is to install Bootstrap
+                                        --*ngIf is for if condition 
+                                        --*ngFor is For loop
+                                        -- Pipes:--use to transform the data into a specific format  
+ -->
